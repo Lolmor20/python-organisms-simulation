@@ -1,0 +1,1 @@
+from Roslina import Roslinaclass Trawa(Roslina):	def __init__(self, x, y, swiat):		super().__init__()		self.polozenie_x = x		self.polozenie_y = y		self.swiat = swiat		self.kolor = (0, 128, 0)

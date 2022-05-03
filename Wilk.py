@@ -1,0 +1,1 @@
+from Zwierze import Zwierzeclass Wilk(Zwierze):	def __init__(self, x, y, swiat):		super().__init__()		self.sila = 9		self.inicjatywa = 5		self.polozenie_x = x		self.polozenie_y = y		self.swiat = swiat		self.kolor = (128, 128, 128)

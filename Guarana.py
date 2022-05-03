@@ -1,0 +1,1 @@
+from Roslina import Roslinaclass Guarana(Roslina):	def __init__(self, x, y, swiat):		super(Guarana, self).__init__()		self.polozenie_x = x		self.polozenie_y = y		self.swiat = swiat		self.kolor = (255, 20, 147)	def kolizja(self, atakujacy, obronca):		atakujacy.setSila(atakujacy.getSila() + 3)		super(Guarana, self).kolizja(atakujacy, obronca)

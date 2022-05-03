@@ -1,0 +1,1 @@
+from Roslina import Roslinaclass Mlecz(Roslina):	def __init__(self, x, y, swiat):		super().__init__()		self.polozenie_x = x		self.polozenie_y = y		self.swiat = swiat		self.kolor = (255, 215, 0)	def akcja(self):		super(Mlecz, self).akcja()		super(Mlecz, self).akcja()		super(Mlecz, self).akcja()
